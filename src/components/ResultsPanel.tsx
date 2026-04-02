@@ -2,7 +2,7 @@ import type { SearchResult } from 'minisearch';
 import { stickersPacks } from '../data';
 
 type Props = {
-  results: Array<{ id: string; score?: number; match?: SearchResult['match'] }>;
+  results: Array<SearchResult>;
   query: string;
 };
 
@@ -20,7 +20,7 @@ export const ResultsPanel = ({
 
   return (
     <div className="card">
-      <h2 className="section-title">Результаты</h2>
+      <h2 className="section-title">Результаты для запроса: {results[0]?.queryTerms.join(' ')}</h2>
       <div className="stats">
         <div>
           Найдено в списке ключей: <strong>{results.length}</strong>

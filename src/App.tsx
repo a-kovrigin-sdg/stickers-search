@@ -8,9 +8,7 @@ import { tags as defaultTags } from './data';
 const App = () => {
   const [query, setQuery] = useState('');
   const [tags, setTags] = useState(defaultTags);
-  const [results, setResults] = useState<
-    Array<{ id: string; score?: number; match?: SearchResult['match'] }>
-  >([]);
+  const [results, setResults] = useState<Array<SearchResult>>([]);
 
   return (
     <div className="app">

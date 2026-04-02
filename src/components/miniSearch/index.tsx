@@ -21,14 +21,10 @@ const stemmers = {
 };
 
 function stemText(lang: keyof typeof stemmers, text: string) {
-  const result = text
+  return text
     .split(', ')
     .map((word) => stemmers[lang].stem(word))
     .join(' ');
-  console.log('before', text);
-  console.log('result', result);
-
-  return result
 }
 
 function getBoostByLocale(
@@ -111,7 +107,7 @@ export const MiniSearchExample = (props: Props) => {
 
     let processedQuery = query
     if (stemmingEnabled) {
-      processedQuery = stemText(locale, query);
+      processedQuery = query.split(' ').map(it=>stemText(locale, it)).join(' ');
     }
 
     return miniSearch.search(processedQuery, searchOptions);
