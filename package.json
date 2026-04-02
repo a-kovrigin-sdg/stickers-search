@@ -12,6 +12,7 @@
     "@types/lodash": "^4.17.24",
     "@types/react": "^19.0.3",
     "@types/react-dom": "^19.0.3",
+    "@types/snowball-stemmers": "^0.6.2",
     "@vitejs/plugin-react": "^4.3.1",
     "prettier": "^3.3.1",
     "typescript": "^5.2.2",
@@ -21,6 +22,7 @@
     "lodash": "^4.17.23",
     "minisearch": "^7.2.0",
     "react": "^19.2.4",
-    "react-dom": "^19.2.4"
+    "react-dom": "^19.2.4",
+    "snowball-stemmers": "^0.6.0"
   }
 }
