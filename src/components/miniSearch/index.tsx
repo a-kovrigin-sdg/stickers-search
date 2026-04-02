@@ -4,12 +4,32 @@ import type { CombineWith } from '../../types';
 import ControlsPanel from './ControlsPanel';
 import deburr from 'lodash/deburr'
 import type { tags as defaultTags } from '../../data';
+import { newStemmer } from 'snowball-stemmers';
 
 type Props = {
   query: string;
   onSearchResult: (it: Array<SearchResult>) => void;
   tags: typeof defaultTags;
 };
+
+const stemmers = {
+  en: newStemmer('english'),
+  de: newStemmer('german'),
+  fr: newStemmer('french'),
+  it: newStemmer('italian'),
+  sp: newStemmer('spanish'),
+};
+
+function stemText(lang: keyof typeof stemmers, text: string) {
+  const result = text
+    .split(', ')
+    .map((word) => stemmers[lang].stem(word))
+    .join(' ');
+  console.log('before', text);
+  console.log('result', result);
+
+  return result
+}
 
 function getBoostByLocale(
   locale: 'de' | 'en' | 'fr' | 'it' | 'sp',
@@ -32,13 +52,20 @@ export const MiniSearchExample = (props: Props) => {
   const [fuzzy, setFuzzy] = useState(0.2);
   const [combineWith, setCombineWith] = useState<CombineWith>('OR');
   const [processOptions, setProcessOptions] = useState<'deburr' | undefined>();
-  const [locale, setLocale] = useState<"de" | "en" | "fr" | "it" | "sp" | undefined>();
+  const [stemmingEnabled, setStemmingEnabled] = useState(false);
+  const [boostedLocale, setBoostedLocale] = useState<"de" | "en" | "fr" | "it" | "sp" | undefined>();
+  const [locale, setLocale] = useState<"de" | "en" | "fr" | "it" | "sp">('en');
   const [boostWeight, setBoostWeight] = useState(1);
 
   const documents = useMemo(() => {
     return tags.map((it) => ({
       reference: it.reference,
-      ...it.keywords,
+      ...(stemmingEnabled
+        ? Object.entries(it.keywords).map(([lang, keys]) =>
+            stemText(lang as keyof typeof stemmers, keys),
+          )
+        : it.keywords
+      )
     }));
   }, [tags]);
 
@@ -78,16 +105,23 @@ export const MiniSearchExample = (props: Props) => {
       searchOptions.processTerm = (it) => it.trim().toLowerCase();
     }
 
-    if (locale) {
-      searchOptions.boost = getBoostByLocale(locale, boostWeight);
+    if (boostedLocale) {
+      searchOptions.boost = getBoostByLocale(boostedLocale, boostWeight);
     }
-    return miniSearch.search(query, searchOptions);
+
+    let processedQuery = query
+    if (stemmingEnabled) {
+      processedQuery = stemText(locale, query);
+    }
+
+    return miniSearch.search(processedQuery, searchOptions);
   }, [
     miniSearch,
     query,
     prefix,
     combineWith,
     fuzzy,
+    boostedLocale,
     locale,
     boostWeight,
     processOptions,
@@ -106,12 +140,16 @@ export const MiniSearchExample = (props: Props) => {
         onFuzzyChange={setFuzzy}
         combineWith={combineWith}
         onCombineWithChange={setCombineWith}
-        boostLocale={locale}
-        onBoostLocaleChange={setLocale}
+        boostLocale={boostedLocale}
+        onBoostLocaleChange={setBoostedLocale}
         boostWeight={boostWeight}
         onBoostWeightChange={setBoostWeight}
-        processOptions = {processOptions}
-        onProcessOptionsChange = {setProcessOptions}
+        processOptions={processOptions}
+        onProcessOptionsChange={setProcessOptions}
+        stemmingEnabled={stemmingEnabled}
+        onStemmingEnabledChange={setStemmingEnabled}
+        locale={locale}
+        onLocaleChange={setLocale}
       />
     </>
   );

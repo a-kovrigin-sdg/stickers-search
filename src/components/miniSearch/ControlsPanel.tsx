@@ -9,10 +9,14 @@ type Props = {
   onCombineWithChange: (value: CombineWith) => void;
   boostLocale?: 'de' | 'en' | 'fr' | 'it' | 'sp';
   onBoostLocaleChange: (value: 'de' | 'en' | 'fr' | 'it' | 'sp') => void;
+  locale: 'de' | 'en' | 'fr' | 'it' | 'sp';
+  onLocaleChange: (value: 'de' | 'en' | 'fr' | 'it' | 'sp') => void;
   boostWeight: number;
   onBoostWeightChange: (it: number) => void;
   processOptions: 'deburr' | undefined;
   onProcessOptionsChange: (term: 'deburr' | undefined) => void;
+  stemmingEnabled: boolean
+  onStemmingEnabledChange: (enabled: boolean) => void;
 };
 
 const ControlsPanel = ({
@@ -26,8 +30,12 @@ const ControlsPanel = ({
   onBoostLocaleChange,
   boostWeight,
   onBoostWeightChange,
- processOptions,
- onProcessOptionsChange,
+  processOptions,
+  onProcessOptionsChange,
+  stemmingEnabled,
+  onStemmingEnabledChange,
+  locale,
+  onLocaleChange,
 }: Props) => {
   return (
     <div className="card">
@@ -59,6 +67,42 @@ const ControlsPanel = ({
                 {'Deburr (убирает ударения и диакритические знаки)'}
               </label>
             </div>
+            <div className="checkbox">
+              <label
+                key={'stemmingEnabled'}
+                htmlFor={'stemmingEnabled'}
+                className="checkbox"
+              >
+                <input
+                  type="checkbox"
+                  name="stemmingEnabled"
+                  id="stemmingEnabled"
+                  checked={stemmingEnabled}
+                  onChange={(event) =>
+                    onStemmingEnabledChange(event.target.checked)
+                  }
+                />
+                {'Stemming (приведение слов к начальной форме)'}
+              </label>
+            </div>
+            {stemmingEnabled && (
+              <div className="select-row">
+                <label htmlFor="locale" style={{color: 'red'}}>ЯЗЫК ВВОДА ПОИСКОВОГО ЗАПРОСА!!!</label>
+                <select
+                  id="locale"
+                  value={locale}
+                  onChange={(event) =>
+                    onLocaleChange(event.target.value as typeof locale)
+                  }
+                >
+                  <option value="de">de</option>
+                  <option value="en">en</option>
+                  <option value="fr">fr</option>
+                  <option value="it">it</option>
+                  <option value="sp">sp</option>
+                </select>
+              </div>
+            )}
           </fieldset>
 
           <fieldset>
