@@ -105,9 +105,12 @@ export const MiniSearchExample = (props: Props) => {
       searchOptions.boost = getBoostByLocale(boostedLocale, boostWeight);
     }
 
-    let processedQuery = query
+    let processedQuery = query;
     if (stemmingEnabled) {
-      processedQuery = query.split(' ').map(it=>stemText(locale, it)).join(' ');
+      processedQuery = query
+        .split(' ')
+        .map((it) => stemText(locale, it))
+        .join(' ');
     }
 
     return miniSearch.search(processedQuery, searchOptions);
@@ -121,6 +124,7 @@ export const MiniSearchExample = (props: Props) => {
     locale,
     boostWeight,
     processOptions,
+    stemmingEnabled,
   ]);
 
   useEffect(() => {
