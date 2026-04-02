@@ -1,0 +1,1339 @@
+{
+  "items": [
+    {
+      "name": "romantic",
+      "icon": {
+        "name": "loveyou"
+      },
+      "credits": 0,
+      "isBought": true,
+      "labels": [],
+      "stickers": [
+        {
+          "name": "dogheart",
+          "image": "/static/stickers/romantic-dogheart.png",
+          "smallImage": "/static/stickers/romantic-dogheart.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "couplecats",
+          "image": "/static/stickers/romantic-couplecats.png",
+          "smallImage": "/static/stickers/romantic-couplecats.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "catheart",
+          "image": "/static/stickers/romantic-catheart.png",
+          "smallImage": "/static/stickers/romantic-catheart.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "couplefoxes",
+          "image": "/static/stickers/romantic-couplefoxes.png",
+          "smallImage": "/static/stickers/romantic-couplefoxes.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "kissing",
+          "image": "/static/stickers/romantic-kissing.png",
+          "smallImage": "/static/stickers/romantic-kissing.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "kiss",
+          "image": "/static/stickers/romantic-kiss.png",
+          "smallImage": "/static/stickers/romantic-kiss.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "love",
+          "image": "/static/stickers/romantic-love.png",
+          "smallImage": "/static/stickers/romantic-love.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "couplecherries",
+          "image": "/static/stickers/romantic-couplecherries.png",
+          "smallImage": "/static/stickers/romantic-couplecherries.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "couplebench",
+          "image": "/static/stickers/romantic-couplebench.png",
+          "smallImage": "/static/stickers/romantic-couplebench.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "loveyou",
+          "image": "/static/stickers/romantic-loveyou.png",
+          "smallImage": "/static/stickers/romantic-loveyou.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "couplebears",
+          "image": "/static/stickers/romantic-couplebears.png",
+          "smallImage": "/static/stickers/romantic-couplebears.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "couplebearrabbit",
+          "image": "/static/stickers/romantic-couplebearrabbit.png",
+          "smallImage": "/static/stickers/romantic-couplebearrabbit.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "couplepenguins",
+          "image": "/static/stickers/romantic-couplepenguins.png",
+          "smallImage": "/static/stickers/romantic-couplepenguins.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "catshugging",
+          "image": "/static/stickers/romantic-catshugging.png",
+          "smallImage": "/static/stickers/romantic-catshugging.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "catssleeping",
+          "image": "/static/stickers/romantic-catssleeping.png",
+          "smallImage": "/static/stickers/romantic-catssleeping.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "couplehedgehogs",
+          "image": "/static/stickers/romantic-couplehedgehogs.png",
+          "smallImage": "/static/stickers/romantic-couplehedgehogs.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "catscouch",
+          "image": "/static/stickers/romantic-catscouch.png",
+          "smallImage": "/static/stickers/romantic-catscouch.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "cutehamster",
+          "image": "/static/stickers/romantic-cutehamster.png",
+          "smallImage": "/static/stickers/romantic-cutehamster.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "cutechick",
+          "image": "/static/stickers/romantic-cutechick.png",
+          "smallImage": "/static/stickers/romantic-cutechick.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "kittypillow",
+          "image": "/static/stickers/romantic-kittypillow.png",
+          "smallImage": "/static/stickers/romantic-kittypillow.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "kittybow",
+          "image": "/static/stickers/romantic-kittybow.png",
+          "smallImage": "/static/stickers/romantic-kittybow.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "bearsleeping",
+          "image": "/static/stickers/romantic-bearsleeping.png",
+          "smallImage": "/static/stickers/romantic-bearsleeping.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "prediction",
+          "image": "/static/stickers/romantic-prediction.png",
+          "smallImage": "/static/stickers/romantic-prediction.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        }
+      ]
+    },
+    {
+      "name": "couple",
+      "credits": 0,
+      "isBought": true,
+      "labels": [],
+      "stickers": [
+        {
+          "name": "kissing",
+          "image": "/static/stickers/couple-kissing.png",
+          "smallImage": "/static/stickers/couple-kissing.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "embracing",
+          "image": "/static/stickers/couple-embracing.png",
+          "smallImage": "/static/stickers/couple-embracing.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "romantic",
+          "image": "/static/stickers/couple-romantic.png",
+          "smallImage": "/static/stickers/couple-romantic.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "morning",
+          "image": "/static/stickers/couple-morning.png",
+          "smallImage": "/static/stickers/couple-morning.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "dancing",
+          "image": "/static/stickers/couple-dancing.png",
+          "smallImage": "/static/stickers/couple-dancing.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "sexy",
+          "image": "/static/stickers/couple-sexy.png",
+          "smallImage": "/static/stickers/couple-sexy.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "cycling",
+          "image": "/static/stickers/couple-cycling.png",
+          "smallImage": "/static/stickers/couple-cycling.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "cafe",
+          "image": "/static/stickers/couple-cafe.png",
+          "smallImage": "/static/stickers/couple-cafe.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "flowers",
+          "image": "/static/stickers/couple-flowers.png",
+          "smallImage": "/static/stickers/couple-flowers.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "gaming",
+          "image": "/static/stickers/couple-gaming.png",
+          "smallImage": "/static/stickers/couple-gaming.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "angel",
+          "image": "/static/stickers/couple-angel.png",
+          "smallImage": "/static/stickers/couple-angel.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "dull",
+          "image": "/static/stickers/couple-dull.png",
+          "smallImage": "/static/stickers/couple-dull.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "kitten",
+          "image": "/static/stickers/couple-kitten.png",
+          "smallImage": "/static/stickers/couple-kitten.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "party",
+          "image": "/static/stickers/couple-party.png",
+          "smallImage": "/static/stickers/couple-party.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "coolguy",
+          "image": "/static/stickers/couple-coolguy.png",
+          "smallImage": "/static/stickers/couple-coolguy.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "why",
+          "image": "/static/stickers/couple-why.png",
+          "smallImage": "/static/stickers/couple-why.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "foryou",
+          "image": "/static/stickers/couple-foryou.png",
+          "smallImage": "/static/stickers/couple-foryou.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "busy",
+          "image": "/static/stickers/couple-busy.png",
+          "smallImage": "/static/stickers/couple-busy.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "devil",
+          "image": "/static/stickers/couple-devil.png",
+          "smallImage": "/static/stickers/couple-devil.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "cinema",
+          "image": "/static/stickers/couple-cinema.png",
+          "smallImage": "/static/stickers/couple-cinema.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        }
+      ]
+    },
+    {
+      "name": "begging",
+      "icon": {
+        "name": "kitty_02_giftbox_v_01"
+      },
+      "credits": 0,
+      "isBought": true,
+      "labels": [],
+      "stickers": [
+        {
+          "name": "beagle_05_heart_simple_AI_v_01",
+          "image": "/static/stickers/begging-beagle_05_heart_simple_AI_v_01.png",
+          "smallImage": "/static/stickers/begging-beagle_05_heart_simple_AI_v_01.x180.png",
+          "linkedCheer": "heart_simple_ai_3d;price=6700",
+          "animation": "/static/stickers/animation/begging-beagle_05_heart_simple_AI_v_01",
+          "animationPreview": "/static/stickers/animation/preview/begging-beagle_05_heart_simple_AI_v_01"
+        },
+        {
+          "name": "panda_with_heart_stone_3d_v_01",
+          "image": "/static/stickers/begging-panda_with_heart_stone_3d_v_01.png",
+          "smallImage": "/static/stickers/begging-panda_with_heart_stone_3d_v_01.x180.png",
+          "linkedCheer": "heart_stone_3d;price=99900",
+          "animation": "/static/stickers/animation/begging-panda_with_heart_stone_3d_v_01",
+          "animationPreview": "/static/stickers/animation/preview/begging-panda_with_heart_stone_3d_v_01"
+        },
+        {
+          "name": "wombat_01_heart_simple_AI_v_01",
+          "image": "/static/stickers/begging-wombat_01_heart_simple_AI_v_01.png",
+          "smallImage": "/static/stickers/begging-wombat_01_heart_simple_AI_v_01.x180.png",
+          "linkedCheer": "heart_simple_ai_3d;price=6700",
+          "animation": "/static/stickers/animation/begging-wombat_01_heart_simple_AI_v_01",
+          "animationPreview": "/static/stickers/animation/preview/begging-wombat_01_heart_simple_AI_v_01"
+        },
+        {
+          "name": "catwoman_03_heart_v_02",
+          "image": "/static/stickers/begging-catwoman_03_heart_v_02.png",
+          "smallImage": "/static/stickers/begging-catwoman_03_heart_v_02.x180.png",
+          "linkedCheer": "heart_simple_ai_3d;price=6700",
+          "animation": "/static/stickers/animation/begging-catwoman_03_heart_v_02",
+          "animationPreview": "/static/stickers/animation/preview/begging-catwoman_03_heart_v_02"
+        },
+        {
+          "name": "lion_03_heart_stone_3d_v_01",
+          "image": "/static/stickers/begging-lion_03_heart_stone_3d_v_01.png",
+          "smallImage": "/static/stickers/begging-lion_03_heart_stone_3d_v_01.x180.png",
+          "linkedCheer": "heart_stone_3d;price=99900",
+          "animation": "/static/stickers/animation/begging-lion_03_heart_stone_3d_v_01",
+          "animationPreview": "/static/stickers/animation/preview/begging-lion_03_heart_stone_3d_v_01"
+        },
+        {
+          "name": "catwoman_02_hot_kiss_3d_v_01",
+          "image": "/static/stickers/begging-catwoman_02_hot_kiss_3d_v_01.png",
+          "smallImage": "/static/stickers/begging-catwoman_02_hot_kiss_3d_v_01.x180.png",
+          "linkedCheer": "hot_kiss_3d;price=75000",
+          "animation": "/static/stickers/animation/begging-catwoman_02_hot_kiss_3d_v_01",
+          "animationPreview": "/static/stickers/animation/preview/begging-catwoman_02_hot_kiss_3d_v_01"
+        },
+        {
+          "name": "kitty_01_crownQueen_ai_3d_v_01",
+          "image": "/static/stickers/begging-kitty_01_crownQueen_ai_3d_v_01.png",
+          "smallImage": "/static/stickers/begging-kitty_01_crownQueen_ai_3d_v_01.x180.png",
+          "linkedCheer": "crownQeen_ai_3d;price=33300",
+          "animation": "/static/stickers/animation/begging-kitty_01_crownQueen_ai_3d_v_01",
+          "animationPreview": "/static/stickers/animation/preview/begging-kitty_01_crownQueen_ai_3d_v_01"
+        },
+        {
+          "name": "beagle_4_plane_v_01",
+          "image": "/static/stickers/begging-beagle_4_plane_v_01.png",
+          "smallImage": "/static/stickers/begging-beagle_4_plane_v_01.x180.png",
+          "linkedCheer": "plane;price=19900",
+          "animation": "/static/stickers/animation/begging-beagle_4_plane_v_01",
+          "animationPreview": "/static/stickers/animation/preview/begging-beagle_4_plane_v_01"
+        },
+        {
+          "name": "beagle_02_cactus_ai_3d_v_01",
+          "image": "/static/stickers/begging-beagle_02_cactus_ai_3d_v_01.png",
+          "smallImage": "/static/stickers/begging-beagle_02_cactus_ai_3d_v_01.x180.png",
+          "linkedCheer": "cactus_ai_3d;price=78000",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "beagle_03_giftbox_v_01",
+          "image": "/static/stickers/begging-beagle_03_giftbox_v_01.png",
+          "smallImage": "/static/stickers/begging-beagle_03_giftbox_v_01.x180.png",
+          "linkedCheer": "",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "girl_01_ring_in_a_box_3d_v_01",
+          "image": "/static/stickers/begging-girl_01_ring_in_a_box_3d_v_01.png",
+          "smallImage": "/static/stickers/begging-girl_01_ring_in_a_box_3d_v_01.x180.png",
+          "linkedCheer": "ring_in_a_box_3d;price=75000",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "kitty_02_giftbox_v_01",
+          "image": "/static/stickers/begging-kitty_02_giftbox_v_01.png",
+          "smallImage": "/static/stickers/begging-kitty_02_giftbox_v_01.x180.png",
+          "linkedCheer": "",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "lion_01_crownQueen_ai_3d_v_02",
+          "image": "/static/stickers/begging-lion_01_crownQueen_ai_3d_v_02.png",
+          "smallImage": "/static/stickers/begging-lion_01_crownQueen_ai_3d_v_02.x180.png",
+          "linkedCheer": "crownQeen_ai_3d;price=33300",
+          "animation": "/static/stickers/animation/begging-lion_01_crownQueen_ai_3d_v_02",
+          "animationPreview": "/static/stickers/animation/preview/begging-lion_01_crownQueen_ai_3d_v_02"
+        },
+        {
+          "name": "kitty_03_ring_in_a_box_3d_v_01",
+          "image": "/static/stickers/begging-kitty_03_ring_in_a_box_3d_v_01.png",
+          "smallImage": "/static/stickers/begging-kitty_03_ring_in_a_box_3d_v_01.x180.png",
+          "linkedCheer": "ring_in_a_box_3d;price=75000",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "beagle_01_castle_v_01",
+          "image": "/static/stickers/begging-beagle_01_castle_v_01.png",
+          "smallImage": "/static/stickers/begging-beagle_01_castle_v_01.x180.png",
+          "linkedCheer": "castle;price=99900",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "panda_02_plane_v_01",
+          "image": "/static/stickers/begging-panda_02_plane_v_01.png",
+          "smallImage": "/static/stickers/begging-panda_02_plane_v_01.x180.png",
+          "linkedCheer": "plane;price=19900",
+          "animation": "/static/stickers/animation/begging-panda_02_plane_v_01",
+          "animationPreview": "/static/stickers/animation/preview/begging-panda_02_plane_v_01"
+        },
+        {
+          "name": "boy_01_castle_v_01",
+          "image": "/static/stickers/begging-boy_01_castle_v_01.png",
+          "smallImage": "/static/stickers/begging-boy_01_castle_v_01.x180.png",
+          "linkedCheer": "castle;price=99900",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "wombat_04_giftbox_v_01",
+          "image": "/static/stickers/begging-wombat_04_giftbox_v_01.png",
+          "smallImage": "/static/stickers/begging-wombat_04_giftbox_v_01.x180.png",
+          "linkedCheer": "",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "catwoman_04_giftbox_v_01",
+          "image": "/static/stickers/begging-catwoman_04_giftbox_v_01.png",
+          "smallImage": "/static/stickers/begging-catwoman_04_giftbox_v_01.x180.png",
+          "linkedCheer": "",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "kitty_04_chain_heart_ai_3d_v_01",
+          "image": "/static/stickers/begging-kitty_04_chain_heart_ai_3d_v_01.png",
+          "smallImage": "/static/stickers/begging-kitty_04_chain_heart_ai_3d_v_01.x180.png",
+          "linkedCheer": "chain_heart_ai_3d;price=12500",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "catwoman_01_chain_heart_ai_3d_v_01",
+          "image": "/static/stickers/begging-catwoman_01_chain_heart_ai_3d_v_01.png",
+          "smallImage": "/static/stickers/begging-catwoman_01_chain_heart_ai_3d_v_01.x180.png",
+          "linkedCheer": "chain_heart_ai_3d;price=12500",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "lion_02_strawberry_ai_3d_v_01",
+          "image": "/static/stickers/begging-lion_02_strawberry_ai_3d_v_01.png",
+          "smallImage": "/static/stickers/begging-lion_02_strawberry_ai_3d_v_01.x180.png",
+          "linkedCheer": "strawberry_ai_3d;price=9700",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "wombat_03_strawberry_ai_3d_v_01",
+          "image": "/static/stickers/begging-wombat_03_strawberry_ai_3d_v_01.png",
+          "smallImage": "/static/stickers/begging-wombat_03_strawberry_ai_3d_v_01.x180.png",
+          "linkedCheer": "strawberry_ai_3d;price=9700",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "wombat_02_cactus_ai_3d_v_01",
+          "image": "/static/stickers/begging-wombat_02_cactus_ai_3d_v_01.png",
+          "smallImage": "/static/stickers/begging-wombat_02_cactus_ai_3d_v_01.x180.png",
+          "linkedCheer": "cactus_ai_3d;price=78000",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "batman_03_gift_box_v_01",
+          "image": "/static/stickers/begging-batman_03_gift_box_v_01.png",
+          "smallImage": "/static/stickers/begging-batman_03_gift_box_v_01.x180.png",
+          "linkedCheer": "",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "batman_01_strawberry_ai_3d_v_01",
+          "image": "/static/stickers/begging-batman_01_strawberry_ai_3d_v_01.png",
+          "smallImage": "/static/stickers/begging-batman_01_strawberry_ai_3d_v_01.x180.png",
+          "linkedCheer": "strawberry_ai_3d;price=9700",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "panda_01_giftbox_v_01",
+          "image": "/static/stickers/begging-panda_01_giftbox_v_01.png",
+          "smallImage": "/static/stickers/begging-panda_01_giftbox_v_01.x180.png",
+          "linkedCheer": "",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "batman_02_catsle_v_01",
+          "image": "/static/stickers/begging-batman_02_catsle_v_01.png",
+          "smallImage": "/static/stickers/begging-batman_02_catsle_v_01.x180.png",
+          "linkedCheer": "castle;price=99900",
+          "animation": "",
+          "animationPreview": ""
+        }
+      ]
+    },
+    {
+      "name": "bear",
+      "icon": {
+        "name": "kiss"
+      },
+      "credits": 0,
+      "isBought": true,
+      "labels": [],
+      "stickers": [
+        {
+          "name": "kiss",
+          "image": "/static/stickers/bear-kiss.png",
+          "smallImage": "/static/stickers/bear-kiss.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "balloon",
+          "image": "/static/stickers/bear-balloon.png",
+          "smallImage": "/static/stickers/bear-balloon.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "love",
+          "image": "/static/stickers/bear-love.png",
+          "smallImage": "/static/stickers/bear-love.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "crying",
+          "image": "/static/stickers/bear-crying.png",
+          "smallImage": "/static/stickers/bear-crying.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "thumbup",
+          "image": "/static/stickers/bear-thumbup.png",
+          "smallImage": "/static/stickers/bear-thumbup.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "worry",
+          "image": "/static/stickers/bear-worry.png",
+          "smallImage": "/static/stickers/bear-worry.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "sleeping",
+          "image": "/static/stickers/bear-sleeping.png",
+          "smallImage": "/static/stickers/bear-sleeping.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "missyou",
+          "image": "/static/stickers/bear-missyou.png",
+          "smallImage": "/static/stickers/bear-missyou.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "shocked",
+          "image": "/static/stickers/bear-shocked.png",
+          "smallImage": "/static/stickers/bear-shocked.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "ashamed",
+          "image": "/static/stickers/bear-ashamed.png",
+          "smallImage": "/static/stickers/bear-ashamed.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "angry",
+          "image": "/static/stickers/bear-angry.png",
+          "smallImage": "/static/stickers/bear-angry.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "full",
+          "image": "/static/stickers/bear-full.png",
+          "smallImage": "/static/stickers/bear-full.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "present",
+          "image": "/static/stickers/bear-present.png",
+          "smallImage": "/static/stickers/bear-present.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "coffee",
+          "image": "/static/stickers/bear-coffee.png",
+          "smallImage": "/static/stickers/bear-coffee.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "hungry",
+          "image": "/static/stickers/bear-hungry.png",
+          "smallImage": "/static/stickers/bear-hungry.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "jacuzzi",
+          "image": "/static/stickers/bear-jacuzzi.png",
+          "smallImage": "/static/stickers/bear-jacuzzi.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "cinema",
+          "image": "/static/stickers/bear-cinema.png",
+          "smallImage": "/static/stickers/bear-cinema.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "hello",
+          "image": "/static/stickers/bear-hello.png",
+          "smallImage": "/static/stickers/bear-hello.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "wine",
+          "image": "/static/stickers/bear-wine.png",
+          "smallImage": "/static/stickers/bear-wine.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "ill",
+          "image": "/static/stickers/bear-ill.png",
+          "smallImage": "/static/stickers/bear-ill.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        }
+      ]
+    },
+    {
+      "name": "text",
+      "icon": {
+        "name": "miss"
+      },
+      "credits": 0,
+      "isBought": true,
+      "labels": [],
+      "stickers": [
+        {
+          "name": "love",
+          "image": "/static/stickers/text-love.png",
+          "smallImage": "/static/stickers/text-love.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "kiss",
+          "image": "/static/stickers/text-kiss.png",
+          "smallImage": "/static/stickers/text-kiss.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "miss",
+          "image": "/static/stickers/text-miss.png",
+          "smallImage": "/static/stickers/text-miss.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "night",
+          "image": "/static/stickers/text-night.png",
+          "smallImage": "/static/stickers/text-night.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "mine",
+          "image": "/static/stickers/text-mine.png",
+          "smallImage": "/static/stickers/text-mine.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "think",
+          "image": "/static/stickers/text-think.png",
+          "smallImage": "/static/stickers/text-think.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "bye",
+          "image": "/static/stickers/text-bye.png",
+          "smallImage": "/static/stickers/text-bye.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "ahhh",
+          "image": "/static/stickers/text-ahhh.png",
+          "smallImage": "/static/stickers/text-ahhh.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "ok",
+          "image": "/static/stickers/text-ok.png",
+          "smallImage": "/static/stickers/text-ok.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "hello",
+          "image": "/static/stickers/text-hello.png",
+          "smallImage": "/static/stickers/text-hello.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "omg",
+          "image": "/static/stickers/text-omg.png",
+          "smallImage": "/static/stickers/text-omg.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "pretty",
+          "image": "/static/stickers/text-pretty.png",
+          "smallImage": "/static/stickers/text-pretty.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "zzz",
+          "image": "/static/stickers/text-zzz.png",
+          "smallImage": "/static/stickers/text-zzz.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "talk",
+          "image": "/static/stickers/text-talk.png",
+          "smallImage": "/static/stickers/text-talk.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "great",
+          "image": "/static/stickers/text-great.png",
+          "smallImage": "/static/stickers/text-great.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "nope",
+          "image": "/static/stickers/text-nope.png",
+          "smallImage": "/static/stickers/text-nope.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "phew",
+          "image": "/static/stickers/text-phew.png",
+          "smallImage": "/static/stickers/text-phew.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "time",
+          "image": "/static/stickers/text-time.png",
+          "smallImage": "/static/stickers/text-time.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "why",
+          "image": "/static/stickers/text-why.png",
+          "smallImage": "/static/stickers/text-why.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "oops",
+          "image": "/static/stickers/text-oops.png",
+          "smallImage": "/static/stickers/text-oops.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        }
+      ]
+    },
+    {
+      "name": "corgi",
+      "credits": 9900,
+      "isBought": false,
+      "labels": ["disabled"],
+      "stickers": [
+        {
+          "name": "corgi_love_sticker",
+          "image": "/static/stickers/corgi-corgi_love_sticker.png",
+          "smallImage": "/static/stickers/corgi-corgi_love_sticker.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "corgi_bump_sticker",
+          "image": "/static/stickers/corgi-corgi_bump_sticker.png",
+          "smallImage": "/static/stickers/corgi-corgi_bump_sticker.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "corgi_laughing_sticker",
+          "image": "/static/stickers/corgi-corgi_laughing_sticker.png",
+          "smallImage": "/static/stickers/corgi-corgi_laughing_sticker.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "corgi_wink_sticker",
+          "image": "/static/stickers/corgi-corgi_wink_sticker.png",
+          "smallImage": "/static/stickers/corgi-corgi_wink_sticker.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "corgi_cry_sticker",
+          "image": "/static/stickers/corgi-corgi_cry_sticker.png",
+          "smallImage": "/static/stickers/corgi-corgi_cry_sticker.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "corgi_star_sticker",
+          "image": "/static/stickers/corgi-corgi_star_sticker.png",
+          "smallImage": "/static/stickers/corgi-corgi_star_sticker.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "corgi_think_sticker",
+          "image": "/static/stickers/corgi-corgi_think_sticker.png",
+          "smallImage": "/static/stickers/corgi-corgi_think_sticker.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "corgi_smiling_sticker",
+          "image": "/static/stickers/corgi-corgi_smiling_sticker.png",
+          "smallImage": "/static/stickers/corgi-corgi_smiling_sticker.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "corgi_work_sticker",
+          "image": "/static/stickers/corgi-corgi_work_sticker.png",
+          "smallImage": "/static/stickers/corgi-corgi_work_sticker.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "corgi_joy_sticker",
+          "image": "/static/stickers/corgi-corgi_joy_sticker.png",
+          "smallImage": "/static/stickers/corgi-corgi_joy_sticker.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "corgi_angel_sticker",
+          "image": "/static/stickers/corgi-corgi_angel_sticker.png",
+          "smallImage": "/static/stickers/corgi-corgi_angel_sticker.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "corgi_sleeping_sticker",
+          "image": "/static/stickers/corgi-corgi_sleeping_sticker.png",
+          "smallImage": "/static/stickers/corgi-corgi_sleeping_sticker.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "corgi_sneak_sticker",
+          "image": "/static/stickers/corgi-corgi_sneak_sticker.png",
+          "smallImage": "/static/stickers/corgi-corgi_sneak_sticker.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "corgi_anger_sticker",
+          "image": "/static/stickers/corgi-corgi_anger_sticker.png",
+          "smallImage": "/static/stickers/corgi-corgi_anger_sticker.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "corgi_please_sticker",
+          "image": "/static/stickers/corgi-corgi_please_sticker.png",
+          "smallImage": "/static/stickers/corgi-corgi_please_sticker.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "corgi_yawn_sticker",
+          "image": "/static/stickers/corgi-corgi_yawn_sticker.png",
+          "smallImage": "/static/stickers/corgi-corgi_yawn_sticker.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "corgi_cool_sticker",
+          "image": "/static/stickers/corgi-corgi_cool_sticker.png",
+          "smallImage": "/static/stickers/corgi-corgi_cool_sticker.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "corgi_cold_sticker",
+          "image": "/static/stickers/corgi-corgi_cold_sticker.png",
+          "smallImage": "/static/stickers/corgi-corgi_cold_sticker.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "corgi_sick_sticker",
+          "image": "/static/stickers/corgi-corgi_sick_sticker.png",
+          "smallImage": "/static/stickers/corgi-corgi_sick_sticker.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "corgi_exhale_sticker",
+          "image": "/static/stickers/corgi-corgi_exhale_sticker.png",
+          "smallImage": "/static/stickers/corgi-corgi_exhale_sticker.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        }
+      ]
+    },
+    {
+      "name": "hobby",
+      "icon": {
+        "name": "013"
+      },
+      "credits": 0,
+      "isBought": true,
+      "labels": [],
+      "stickers": [
+        {
+          "name": "020",
+          "image": "/static/stickers/hobby-020.png",
+          "smallImage": "/static/stickers/hobby-020.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "013",
+          "image": "/static/stickers/hobby-013.png",
+          "smallImage": "/static/stickers/hobby-013.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "012",
+          "image": "/static/stickers/hobby-012.png",
+          "smallImage": "/static/stickers/hobby-012.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "021",
+          "image": "/static/stickers/hobby-021.png",
+          "smallImage": "/static/stickers/hobby-021.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "019",
+          "image": "/static/stickers/hobby-019.png",
+          "smallImage": "/static/stickers/hobby-019.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "011",
+          "image": "/static/stickers/hobby-011.png",
+          "smallImage": "/static/stickers/hobby-011.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "023",
+          "image": "/static/stickers/hobby-023.png",
+          "smallImage": "/static/stickers/hobby-023.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "008",
+          "image": "/static/stickers/hobby-008.png",
+          "smallImage": "/static/stickers/hobby-008.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "009",
+          "image": "/static/stickers/hobby-009.png",
+          "smallImage": "/static/stickers/hobby-009.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "004",
+          "image": "/static/stickers/hobby-004.png",
+          "smallImage": "/static/stickers/hobby-004.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "005",
+          "image": "/static/stickers/hobby-005.png",
+          "smallImage": "/static/stickers/hobby-005.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "029",
+          "image": "/static/stickers/hobby-029.png",
+          "smallImage": "/static/stickers/hobby-029.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "027",
+          "image": "/static/stickers/hobby-027.png",
+          "smallImage": "/static/stickers/hobby-027.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "024",
+          "image": "/static/stickers/hobby-024.png",
+          "smallImage": "/static/stickers/hobby-024.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "017",
+          "image": "/static/stickers/hobby-017.png",
+          "smallImage": "/static/stickers/hobby-017.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "002",
+          "image": "/static/stickers/hobby-002.png",
+          "smallImage": "/static/stickers/hobby-002.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "018",
+          "image": "/static/stickers/hobby-018.png",
+          "smallImage": "/static/stickers/hobby-018.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "026",
+          "image": "/static/stickers/hobby-026.png",
+          "smallImage": "/static/stickers/hobby-026.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "006",
+          "image": "/static/stickers/hobby-006.png",
+          "smallImage": "/static/stickers/hobby-006.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "007",
+          "image": "/static/stickers/hobby-007.png",
+          "smallImage": "/static/stickers/hobby-007.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "022",
+          "image": "/static/stickers/hobby-022.png",
+          "smallImage": "/static/stickers/hobby-022.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "028",
+          "image": "/static/stickers/hobby-028.png",
+          "smallImage": "/static/stickers/hobby-028.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "010",
+          "image": "/static/stickers/hobby-010.png",
+          "smallImage": "/static/stickers/hobby-010.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "025",
+          "image": "/static/stickers/hobby-025.png",
+          "smallImage": "/static/stickers/hobby-025.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "030",
+          "image": "/static/stickers/hobby-030.png",
+          "smallImage": "/static/stickers/hobby-030.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "014",
+          "image": "/static/stickers/hobby-014.png",
+          "smallImage": "/static/stickers/hobby-014.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "015",
+          "image": "/static/stickers/hobby-015.png",
+          "smallImage": "/static/stickers/hobby-015.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "016",
+          "image": "/static/stickers/hobby-016.png",
+          "smallImage": "/static/stickers/hobby-016.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "003",
+          "image": "/static/stickers/hobby-003.png",
+          "smallImage": "/static/stickers/hobby-003.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "001",
+          "image": "/static/stickers/hobby-001.png",
+          "smallImage": "/static/stickers/hobby-001.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        }
+      ]
+    },
+    {
+      "name": "vip",
+      "icon": {
+        "name": "doberman_cool_sticker"
+      },
+      "credits": 0,
+      "isBought": true,
+      "labels": ["disabled"],
+      "stickers": [
+        {
+          "name": "doberman_hearth_eyes_sticker",
+          "image": "/static/stickers/vip-doberman_hearth_eyes_sticker.png",
+          "smallImage": "/static/stickers/vip-doberman_hearth_eyes_sticker.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "panther_love_sticker",
+          "image": "/static/stickers/vip-panther_love_sticker.png",
+          "smallImage": "/static/stickers/vip-panther_love_sticker.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "panther_cute_sticker",
+          "image": "/static/stickers/vip-panther_cute_sticker.png",
+          "smallImage": "/static/stickers/vip-panther_cute_sticker.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "doberman_tong_sticker",
+          "image": "/static/stickers/vip-doberman_tong_sticker.png",
+          "smallImage": "/static/stickers/vip-doberman_tong_sticker.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "panther_stars_eyes_sticker",
+          "image": "/static/stickers/vip-panther_stars_eyes_sticker.png",
+          "smallImage": "/static/stickers/vip-panther_stars_eyes_sticker.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "doberman_angel_sticker",
+          "image": "/static/stickers/vip-doberman_angel_sticker.png",
+          "smallImage": "/static/stickers/vip-doberman_angel_sticker.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "panther_neutral_sticker",
+          "image": "/static/stickers/vip-panther_neutral_sticker.png",
+          "smallImage": "/static/stickers/vip-panther_neutral_sticker.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "doberman_cool_sticker",
+          "image": "/static/stickers/vip-doberman_cool_sticker.png",
+          "smallImage": "/static/stickers/vip-doberman_cool_sticker.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "panther_happy_sticker",
+          "image": "/static/stickers/vip-panther_happy_sticker.png",
+          "smallImage": "/static/stickers/vip-panther_happy_sticker.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "panther_sad_sticker",
+          "image": "/static/stickers/vip-panther_sad_sticker.png",
+          "smallImage": "/static/stickers/vip-panther_sad_sticker.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "panther_open_mouth_sticker",
+          "image": "/static/stickers/vip-panther_open_mouth_sticker.png",
+          "smallImage": "/static/stickers/vip-panther_open_mouth_sticker.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "panther_grinning_sticker",
+          "image": "/static/stickers/vip-panther_grinning_sticker.png",
+          "smallImage": "/static/stickers/vip-panther_grinning_sticker.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "doberman_expressionless_sticker",
+          "image": "/static/stickers/vip-doberman_expressionless_sticker.png",
+          "smallImage": "/static/stickers/vip-doberman_expressionless_sticker.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        },
+        {
+          "name": "doberman_wink_sticker",
+          "image": "/static/stickers/vip-doberman_wink_sticker.png",
+          "smallImage": "/static/stickers/vip-doberman_wink_sticker.x180.png",
+          "animation": "",
+          "animationPreview": ""
+        }
+      ]
+    }
+  ]
+}
